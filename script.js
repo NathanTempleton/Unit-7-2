@@ -9,7 +9,6 @@ function type () {
 
   if (playerChoice < 0) {
     playerChoice = document.getElementById('result').innerHTML = 'Negative'
-
   } else {
     playerChoice = document.getElementById('result').innerHTML = 'Positive'
   }
